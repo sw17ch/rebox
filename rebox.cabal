@@ -1,0 +1,28 @@
+name: rebox
+version: 0.0.1
+category: Data
+synopsis: Take things out of boxes and put them in different ones.
+description:
+    A set of functions I find my self using frequently but don't appear
+    to yet have their own package or name. I'm calling them reboxers.
+author: John Van Enk <vanenkj@gmail.com>
+maintainer: John Van Enk <vanenkj@gmail.com>
+
+license: BSD3
+license-file: LICENSE
+
+build-type: Simple
+cabal-version: >= 1.6
+
+library
+    build-depends:
+        base >= 4 && < 5
+
+    hs-source-dirs: src/
+
+    exposed-modules:
+        Data.Rebox
+
+source-repository head
+    type: git
+    location: http://github.com/sw17ch/
